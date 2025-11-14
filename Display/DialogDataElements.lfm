@@ -1,0 +1,274 @@
+object dlgDataElements: TdlgDataElements
+  Left = 647
+  Height = 355
+  Top = 137
+  Width = 380
+  Caption = 'Configure Data Elements'
+  ClientHeight = 355
+  ClientWidth = 380
+  Constraints.MinHeight = 355
+  Constraints.MinWidth = 380
+  FormStyle = fsStayOnTop
+  Position = poMainFormCenter
+  LCLVersion = '4.99.0.0'
+  object pnlMain: TPanel
+    Left = 0
+    Height = 321
+    Top = 0
+    Width = 380
+    Align = alClient
+    ClientHeight = 321
+    ClientWidth = 380
+    TabOrder = 0
+    object pnlTop: TPanel
+      Left = 1
+      Height = 50
+      Top = 1
+      Width = 378
+      Align = alTop
+      BevelOuter = bvNone
+      ClientHeight = 50
+      ClientWidth = 378
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 16
+        Height = 15
+        Top = 3
+        Width = 34
+        Caption = 'Prefix'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object edtPrefix: TEdit
+        Left = 16
+        Height = 23
+        Top = 20
+        Width = 80
+        TabOrder = 0
+        Text = 'edtPrefix'
+      end
+      object Label2: TLabel
+        Left = 110
+        Height = 15
+        Top = 3
+        Width = 34
+        Caption = 'Suffix'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object edtSuffix: TEdit
+        Left = 110
+        Height = 23
+        Top = 20
+        Width = 80
+        TabOrder = 1
+        Text = 'edtSuffix'
+      end
+      object edtDelimiter: TEdit
+        Left = 204
+        Height = 23
+        Top = 20
+        Width = 80
+        TabOrder = 2
+        Text = 'edtDelimiter'
+      end
+      object Label3: TLabel
+        Left = 204
+        Height = 15
+        Top = 3
+        Width = 53
+        Caption = 'Delimiter'
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+    end
+    object pnlFields: TPanel
+      Left = 1
+      Height = 269
+      Top = 51
+      Width = 378
+      Align = alClient
+      BevelOuter = bvNone
+      ClientHeight = 269
+      ClientWidth = 378
+      TabOrder = 1
+      object tbMain: TToolBar
+        Left = 0
+        Height = 26
+        Top = 0
+        Width = 378
+        Images = ImageList1
+        List = True
+        ShowCaptions = True
+        TabOrder = 0
+        object btnAdd: TToolButton
+          Left = 1
+          Top = 2
+          Caption = 'Add Field'
+          ImageIndex = 0
+          OnClick = btnAddClick
+        end
+        object btnUp: TToolButton
+          Left = 165
+          Top = 2
+          Caption = 'Up'
+          ImageIndex = 2
+          OnClick = btnUpClick
+        end
+        object btnDown: TToolButton
+          Left = 209
+          Top = 2
+          Caption = 'Down'
+          ImageIndex = 3
+          OnClick = btnDownClick
+        end
+        object ToolButton4: TToolButton
+          Left = 157
+          Height = 22
+          Top = 2
+          Caption = 'ToolButton4'
+          Style = tbsSeparator
+        end
+        object ToolButton5: TToolButton
+          Left = 269
+          Height = 22
+          Top = 2
+          Caption = 'ToolButton5'
+          Style = tbsSeparator
+        end
+        object btnDelete: TToolButton
+          Left = 277
+          Top = 2
+          Caption = 'Delete Field'
+          ImageIndex = 1
+          OnClick = btnDeleteClick
+        end
+        object btnEdit: TToolButton
+          Left = 80
+          Top = 2
+          Caption = 'Edit Field'
+          ImageIndex = 4
+          OnClick = btnEditClick
+        end
+      end
+      object lvDataElements: TListView
+        Left = 0
+        Height = 243
+        Top = 26
+        Width = 378
+        Align = alClient
+        Columns = <        
+          item
+            Caption = 'Name'
+            Width = 75
+          end        
+          item
+            Caption = 'Prefix'
+          end        
+          item
+            Caption = 'Suffix'
+          end        
+          item
+            Caption = 'Type'
+            Width = 75
+          end        
+          item
+            Caption = 'Last Value'
+            Width = 120
+          end>
+        HideSelection = False
+        ReadOnly = True
+        RowSelect = True
+        TabOrder = 1
+        ViewStyle = vsReport
+        OnChange = lvDataElementsChange
+        OnDblClick = lvDataElementsDblClick
+        OnSelectItem = lvDataElementsSelectItem
+      end
+    end
+  end
+  object pnlButtons: TPanel
+    Left = 0
+    Height = 34
+    Top = 321
+    Width = 380
+    Align = alBottom
+    ClientHeight = 34
+    ClientWidth = 380
+    TabOrder = 1
+    object Button1: TButton
+      Left = 257
+      Height = 25
+      Top = 3
+      Width = 42
+      Anchors = [akTop, akRight]
+      AutoSize = True
+      Caption = 'OK'
+      ModalResult = 1
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 305
+      Height = 25
+      Top = 3
+      Width = 62
+      Anchors = [akTop, akRight]
+      AutoSize = True
+      Cancel = True
+      Caption = 'Cancel'
+      ModalResult = 2
+      TabOrder = 1
+    end
+  end
+  object ImageList1: TImageList
+    Left = 140
+    Top = 100
+    Bitmap = {
+      4C7A050000001000000010000000880500000000000078DAAD976B4C145714C7
+      AF9A360D1FFAF083B56D42131A4CDAC646D926ADA6256DC1E52DA5D4C43525A6
+      695A1F3524350D520B4281B2B0AE7495873C45D08001456A5542974771A1B24B
+      519EA608EA4A7D159BD654016DDAFC7BEE8CBBCC2E33303BED24FFEC997BE677
+      EF9973EE9D7B1700C37F94C7658ED4B15CBD951943C18C21107E73F560BB23AC
+      6C4FB44EFAE82CDE145EF87891019F0F9F46E55D27F6FD71115F5C7720E1C229
+      BC722A1B8BF6BE07668EAE93E54DE175CF947F84164C23E19A1DCCB61FACDD02
+      F6C35EB0CE620438AAB1F2CC7E2CCA5F078AA3D0833747E9FC0AD6E3D8FD5FB1
+      B4AF969E2F003B6381EB6236EAE36C091EE92EC3D2262398E55DB0BC189D9BCF
+      D1B719EC871171B9859E2B1065CB93F07960DD45603DA578B48362AADA4CF988
+      6A97F048727681398AC1BAC8DF49CF77186778B285B6B3F9D44709587D12E521
+      0A33FC1A7C72A90D4FF65563BE8BF5525E8E25D3F891333CD5276EE038160F1D
+      9A9F3F2FC39BC2F17A6739583FC5DFBB8F62E4B14AE2275B683B47F1F795CE8E
+      3F738D7D497D329EB253DF43E41FA0DF5E49FEC816DA86CB2817662CA8DA0296
+      156677F3869571CC1287274E6662E100E5E7023DD79F3FC3932DB61563011F9B
+      D76FC3CA38C9FCF1632921758CE6D7C2A33BA85E667ABE044B2F1F11C46DDE26
+      B0FBE2C15242F91CF4F39ABFFE2C9DE63DF52DC45747CFD6EF1045B6D0C6C715
+      597FD9F9CF58008B7DF903961966E7F9E13916C46DDEC67D0F59055E7C17C602
+      493A2F053EF429AEBF156F75828B295CDE7E29CFDBBFB74D0992EB43CEEFE2F9
+      7DA37512CB23AE0BE2B6B40F25BF94AFFD6E12413137DDE2F7AE78957C92F875
+      FCFE40FD3DBC1637E116BF976B7B189BCE2B7F421FFB0F4DE28D75BFC98AFB5C
+      AC42FD843EBEA998C4DB86DF3DC4DBA4AC52FDF933394553D027DCF1106FF3AE
+      8B5CFD33F64E21EAC3BBB2E2BEB9EAFFA5791AB11F4FBAC5EFE5DAE4EA9F64BC
+      8FF7B74CBBC5EF5DF553F249F9CF32FE8221F181206E4B72A553F27BD77FDBAE
+      BF0579E759C92F577F1956D12F577F0556D68FFF61EF9E732F37854190CC9C99
+      9737BE8352E7A0206EFBC4E784226FB407ACB9429060539B2ADE1C898C3107ED
+      1307C1DACA44919DC9DBCC337B96229F15D62B9C571AD2E89B7F405443BA7886
+      219F8AF8970935A277DE3AFE1398BD4A3C0389755BA63A7FF4BE86ABDDB46F56
+      8B63FB9A7F3A1344393B68BFA6F173C334F1C1575A69DFD5CAEBB1E24A13EDD9
+      147F8E06DEA8C70BCE1360235AF9302C711E051BD3C813F3D8780D9853239F1B
+      0176B35614B77DE5D3F52DCC447B3F17B77DE5F95962E67B11E033BF27BAD1BD
+      FEB9ED2B6FD2A378E206368D0D797C437C99FFD9D72E825969FE99F49AF8A4AB
+      F4ED693FA899DFE4ECA5F5AF7DFCF597CED2D9B75AF3FA8B18A3F5EBD0CEAF1E
+      B5D299FB90E6F5FBD2E8493A336B9CFFD9A1786E84D6DF10E52F3B543DBF27A6
+      8B8FCD9A77810DD2F77FF08068F318C837FFF73F0AF13F37227E82F6D9E17241
+      DCE66DD2FF1C73C4AF13C66AA5312F558A6ADDE5CA814EE5FB531FE134773244
+      71DB6BCF57B17E75F41F11827CD8F3E73A2FC8F1BE5C36D3085A73063D6AA9F6
+      321AD370ABF916866B06D0B67B10BEF0F9D93BF1E79DDBC8CE4D87DD628735AD
+      090DA9E7A0860F4AB5A3F9977BB07C9D8AC1BE1E98F2B2707AFB09146F75CCCB
+      AF4AFD116B6998A066A0A8FD320A4D5FA1F9F47124A726BAE7C25C6CDC79E04D
+      625F3C022C2E03D2EAFB91BE73BBC75C988B0D267639B1FEE5C01252D0B6EA59
+      73613EF679E29EADA03812CB203717D4B0C189A5B2675A29BF2AB5CB2756CABF
+      9A6CC3DA5E31576A59171FFBED6DE48C03212D94E71ACA55993AD6C547D74DA0
+      F2065032FA008195C0D3E5EA5817BF31A302E9874FC132FC0F365A81D59FAA63
+      5DBC615B0A22376721B66004F1E67ED5AC247FDEFFF3992FFCBFD9EC7AE3
+    }
+  end
+end

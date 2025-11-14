@@ -1,0 +1,128 @@
+object dlgDataElement: TdlgDataElement
+  Left = 1035
+  Height = 255
+  Top = 137
+  Width = 250
+  Caption = 'Data Element'
+  ClientHeight = 255
+  ClientWidth = 250
+  Constraints.MinHeight = 255
+  Constraints.MinWidth = 250
+  Position = poMainFormCenter
+  LCLVersion = '4.99.0.0'
+  object pnlButtons: TPanel
+    Left = 0
+    Height = 34
+    Top = 221
+    Width = 250
+    Align = alBottom
+    ClientHeight = 34
+    ClientWidth = 250
+    TabOrder = 4
+    object Button1: TButton
+      Left = 129
+      Height = 25
+      Top = 3
+      Width = 42
+      Anchors = [akTop, akRight]
+      AutoSize = True
+      Caption = 'OK'
+      ModalResult = 1
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 175
+      Height = 25
+      Top = 3
+      Width = 62
+      Anchors = [akTop, akRight]
+      AutoSize = True
+      Cancel = True
+      Caption = 'Cancel'
+      ModalResult = 2
+      TabOrder = 1
+    end
+  end
+  object lblName: TLabel
+    Left = 9
+    Height = 15
+    Top = 5
+    Width = 33
+    Caption = 'Name'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtName: TEdit
+    Left = 9
+    Height = 23
+    Top = 25
+    Width = 226
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 0
+    Text = 'Data'
+  end
+  object lblPrefix: TLabel
+    Left = 9
+    Height = 15
+    Top = 56
+    Width = 34
+    Caption = 'Prefix'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtPrefix: TEdit
+    Left = 9
+    Height = 23
+    Top = 76
+    Width = 226
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 2
+  end
+  object lblSuffix: TLabel
+    Left = 9
+    Height = 15
+    Top = 112
+    Width = 34
+    Caption = 'Suffix'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtSuffix: TEdit
+    Left = 9
+    Height = 23
+    Top = 132
+    Width = 226
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 3
+  end
+  object lblType: TLabel
+    Left = 9
+    Height = 15
+    Top = 168
+    Width = 26
+    Caption = 'Type'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object cboType: TComboBox
+    Left = 9
+    Height = 23
+    Top = 188
+    Width = 226
+    Anchors = [akTop, akLeft, akRight]
+    ItemHeight = 15
+    Style = csDropDownList
+    TabOrder = 5
+  end
+  object cboName: TComboBox
+    Left = 9
+    Height = 23
+    Top = 25
+    Width = 226
+    Anchors = [akTop, akLeft, akRight]
+    ItemHeight = 15
+    Style = csDropDownList
+    TabOrder = 1
+    Visible = False
+  end
+end

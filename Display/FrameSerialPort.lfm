@@ -1,0 +1,98 @@
+object fmeSerialPort: TfmeSerialPort
+  Left = 0
+  Height = 105
+  Top = 0
+  Width = 635
+  ClientHeight = 105
+  ClientWidth = 635
+  Constraints.MinHeight = 105
+  Constraints.MinWidth = 590
+  TabOrder = 0
+  DesignLeft = 329
+  DesignTop = 223
+  object ledStatus: TAdvLed
+    Left = 13
+    Height = 24
+    Top = 18
+    Width = 24
+    Kind = lkGreenLight
+  end
+  object Label1: TLabel
+    Left = 51
+    Height = 15
+    Top = 3
+    Width = 33
+    Caption = 'Name'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtName: TEdit
+    Left = 51
+    Height = 23
+    Top = 19
+    Width = 109
+    Color = clBtnFace
+    ReadOnly = True
+    TabOrder = 0
+    Text = 'edtName'
+  end
+  object Label2: TLabel
+    Left = 169
+    Height = 15
+    Top = 3
+    Width = 31
+    Caption = 'Serial'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtSerial: TEdit
+    Left = 169
+    Height = 23
+    Top = 19
+    Width = 208
+    Color = clBtnFace
+    ReadOnly = True
+    TabOrder = 1
+    Text = 'edtSerial'
+  end
+  object Label3: TLabel
+    Left = 386
+    Height = 15
+    Top = 3
+    Width = 70
+    Anchors = [akTop, akLeft, akRight]
+    Caption = 'Fields'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtFields: TEdit
+    Left = 386
+    Height = 23
+    Top = 19
+    Width = 236
+    Anchors = [akTop, akLeft, akRight]
+    Color = clBtnFace
+    ReadOnly = True
+    TabOrder = 2
+    Text = 'edtFields'
+  end
+  object grdResults: TStringGrid
+    Left = 0
+    Height = 59
+    Top = 46
+    Width = 635
+    Align = alBottom
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ColCount = 0
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 0
+    TabOrder = 3
+  end
+  object tmrRefresh: TTimer
+    Interval = 5000
+    OnTimer = tmrRefreshTimer
+    Left = 297
+    Top = 36
+  end
+end
