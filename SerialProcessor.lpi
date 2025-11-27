@@ -34,6 +34,12 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="pl_Win_DirectX"/>
+      </Item>
+      <Item>
+        <PackageName Value="pl_Win_DSPack"/>
+      </Item>
+      <Item>
         <PackageName Value="IM_application"/>
       </Item>
       <Item>

@@ -13,7 +13,7 @@ Uses
   Forms,
   SysUtils,
   LazSerialPort,
-  FormMain;
+  FormMain, pl_win_directx;
 
   {$R *.res}
 
