@@ -9,8 +9,7 @@
     Original work by Mike Thompson (mike.cornflake@gmail.com)
 
   Dates
-    Created        : 2025-11-14  // TODO: confirm from SourceForge
-    Added to Git   : 2025-11-14
+    Created        : 2025-11-14
 
   License
     This file is part of SerialProcessor.
