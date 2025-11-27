@@ -1,4 +1,4 @@
-# SerialProcessor UML Documentation
+# SerialProcessor Documentation
 
 ## DataElements.pas
 ### TDataElement
