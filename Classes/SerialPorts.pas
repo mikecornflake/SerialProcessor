@@ -1,3 +1,35 @@
+{------------------------------------------------------------------------------
+  Project   : SerialProcessor
+  Unit      : SerialPorts (SerialPorts.pas)
+  Description
+    Manages serial port configuration and communication, including reader and
+    writer threads with notification callbacks for received data.
+
+  Source
+    Original work by Mike Thompson (mike.cornflake@gmail.com)
+
+  Dates
+    Created        : 2025-11-14  // TODO: confirm from SourceForge
+    Added to Git   : 2025-11-14
+
+  License
+    This file is part of SerialProcessor.
+
+    It is free software: you can redistribute it and/or modify it under the
+    terms of the GNU General Public License as published by the Free Software
+    Foundation, either version 3 of the License, or (at your option) any
+    later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+    SPDX-License-Identifier: GPL-3.0-or-later
+------------------------------------------------------------------------------}
 Unit SerialPorts;
 
 {$mode ObjFPC}{$H+}
