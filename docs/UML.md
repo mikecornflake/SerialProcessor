@@ -16,6 +16,8 @@
 ### Helper Functions/Constants
 - `ElementTypeToStr`, `StrToElementType`, `ELEMENT_TYPES`, `TIMEOUT_SECONDS` provide type mapping and default timeout behavior.
 
+---
+
 ## SerialPorts.pas
 ### TSerialPort
 - **Purpose**: Wraps serial device access, parsing, and broadcasting for one port.
@@ -27,6 +29,8 @@
 - **Purpose**: Manages multiple serial ports and shared field metadata.
 - **Key Attributes**: List of `TSerialPort` objects, `AvailableFields`, shared notification handler.
 - **Key Operations**: Add with duplicate-name guard; find ports/elements (supports `Port.Element` lookup); resolve `SourceElement` links from another collection; start/stop all ports; XML serialization; configuration dialog.
+
+---
 
 ## Logger.pas
 ### TLogger
