@@ -37,7 +37,7 @@
 - **Purpose**: Thread-safe file logger for CSV and diagnostic output.
 - **Key Attributes**: `Path`, `Name`, file extension, timestamp flag, `TFileStream` handle, critical section for synchronization.
 - **Key Operations**: Constructor chooses directory/name and opens file; destructor frees stream; `NewFile` rolls to timestamped file; `Log` writes lines with optional timestamps, retrying with a new file on failure.
-- **Relationships**: `SystemLog` lazily instantiates a global logger bound to application name; `TSerialPort` uses `TLogger` for CSV logging of readings.
+- **Relationships**: `SystemLog` lazily instantiates a global logger bound to application name; `TSerialPort` uses a local `TLogger` for CSV logging of readings.
   
 ### TStringQueue
 - **Purpose**: Thread-safe bounded FIFO for strings.
