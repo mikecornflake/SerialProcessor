@@ -16,16 +16,6 @@
 ### Helper Functions/Constants
 - `ElementTypeToStr`, `StrToElementType`, `ELEMENT_TYPES`, `TIMEOUT_SECONDS` provide type mapping and default timeout behavior.
 
-## DataFields.pas
-### TDataElement (DataFields variant)
-- **Purpose**: Lightweight metadata model for a field definition.
-- **Key Attributes**: `Name`, `ID`, `Value`, `FieldType` (runtime type info).
-- **Key Operations**: Constructor sets defaults; XML getter/setter for name, ID, value, and type.
-
-### TDataElements
-- **Purpose**: Collection for field metadata definitions.
-- **Key Operations**: XML serialization/deserialization of contained fields; find/index by name (case-insensitive); configuration dialog hook.
-
 ## Logger.pas
 ### TLogger
 - **Purpose**: Thread-safe file logger for CSV and diagnostic output.
