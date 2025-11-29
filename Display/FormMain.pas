@@ -320,7 +320,7 @@ Var
   sSerialProcessor, sFile, sDisplay, sMsg: String;
   iLeft, iTop, iWidth, iHeight: Integer;
 Begin
-  sFile := LoadTextFromFile(FSettingsFile);
+  sFile := LoadTextFile(FSettingsFile);
 
   sSerialProcessor := TXMLHelper.GetXMLFragment(sFile, 'TSerialProcessor');
 
