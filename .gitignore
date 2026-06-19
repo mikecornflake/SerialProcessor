@@ -1,3 +1,5 @@
+*.o
+*.ppu
 *.lps
-SerialProcessor.lps
-SerialProcessor.lps
+*.exe
+**/lib/
