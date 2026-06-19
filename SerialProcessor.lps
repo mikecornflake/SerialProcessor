@@ -2,545 +2,516 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="12"/>
+    <Version Value="13"/>
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
         <Filename Value="SerialProcessor.lpr"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="34" Y="12"/>
-        <UsageCount Value="82"/>
         <Loaded Value="True"/>
+        <UsageCount Value="82"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="34" Y="12"/>
       </Unit>
       <Unit>
         <Filename Value="Display\FormMain.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <CursorPos Y="13"/>
-        <UsageCount Value="82"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
+        <UsageCount Value="82"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="79"/>
+        <CursorPos X="31" Y="101"/>
       </Unit>
       <Unit>
         <Filename Value="Classes\DataElements.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="5"/>
-        <CursorPos X="34" Y="12"/>
-        <UsageCount Value="82"/>
         <Loaded Value="True"/>
+        <UsageCount Value="82"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="34" Y="12"/>
       </Unit>
       <Unit>
         <Filename Value="Classes\SerialPorts.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
-        <CursorPos X="34" Y="12"/>
+        <Loaded Value="True"/>
         <UsageCount Value="82"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="34" Y="12"/>
         <Bookmarks Count="1">
           <Item0 Y="197" Left="1" Top="187" ID="1"/>
         </Bookmarks>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="Display\DialogDataElements.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="dlgDataElements"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="6"/>
-        <CursorPos X="23" Y="6"/>
-        <UsageCount Value="82"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
+        <UsageCount Value="82"/>
+        <EditorIndex Value="8"/>
+        <CursorPos X="23" Y="6"/>
       </Unit>
       <Unit>
         <Filename Value="Display\DialogDataElement.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="dlgDataElement"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="9"/>
-        <CursorPos X="49" Y="5"/>
-        <UsageCount Value="82"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
+        <UsageCount Value="82"/>
+        <EditorIndex Value="11"/>
+        <CursorPos X="49" Y="5"/>
       </Unit>
       <Unit>
         <Filename Value="Display\DialogSerialPorts.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="dlgSerialPorts"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="7"/>
-        <CursorPos X="34" Y="12"/>
-        <UsageCount Value="80"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
+        <UsageCount Value="80"/>
+        <EditorIndex Value="9"/>
+        <CursorPos X="34" Y="12"/>
       </Unit>
       <Unit>
         <Filename Value="Display\DialogSerialPort.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="dlgSerialPort"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="8"/>
-        <CursorPos X="33" Y="12"/>
-        <UsageCount Value="78"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
+        <UsageCount Value="78"/>
+        <EditorIndex Value="10"/>
+        <CursorPos X="33" Y="12"/>
       </Unit>
       <Unit>
         <Filename Value="Display\FrameSerialPort.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="fmeSerialPort"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="34" Y="12"/>
-        <UsageCount Value="43"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
+        <UsageCount Value="43"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="19"/>
+        <CursorPos X="66" Y="40"/>
       </Unit>
       <Unit>
         <Filename Value="Classes\Logger.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
-        <CursorPos X="33" Y="12"/>
-        <UsageCount Value="34"/>
         <Loaded Value="True"/>
+        <UsageCount Value="34"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="33" Y="12"/>
       </Unit>
       <Unit>
         <Filename Value="Classes\SerialPortThreads.pas"/>
+        <UsageCount Value="21"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="14"/>
-        <UsageCount Value="21"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\packages\fcl-db\src\base\db.pas"/>
         <UnitName Value="DB"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="89"/>
         <CursorPos X="36" Y="106"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\typinfo.pp"/>
         <UnitName Value="TypInfo"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="27"/>
         <CursorPos X="8" Y="44"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\inc\rttih.inc"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="5"/>
         <CursorPos X="60" Y="26"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\inc\objpash.inc"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="198"/>
         <CursorPos X="23" Y="206"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\inc\objpas.inc"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="315"/>
         <CursorPos X="9" Y="325"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\config_lazarus\onlinepackagemanager\packages\LazSerial\lazserial.pas"/>
         <UnitName Value="LazSerial"/>
+        <UsageCount Value="28"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="4"/>
         <CursorPos Y="429"/>
-        <UsageCount Value="28"/>
       </Unit>
       <Unit>
         <Filename Value="..\Shared\Support\LazSerialSupport.pas"/>
+        <UsageCount Value="37"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="124"/>
         <CursorPos X="3" Y="135"/>
-        <UsageCount Value="37"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\packages\fcl-xml\src\dom.pp"/>
         <UnitName Value="DOM"/>
+        <UsageCount Value="6"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="205"/>
         <CursorPos X="3" Y="200"/>
-        <UsageCount Value="6"/>
       </Unit>
       <Unit>
         <Filename Value="..\Shared\Support\StringSupport.pas"/>
+        <UsageCount Value="38"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="68"/>
         <CursorPos X="124" Y="73"/>
-        <UsageCount Value="38"/>
       </Unit>
       <Unit>
         <Filename Value="..\Shared\Support\XMLSupport.pas"/>
+        <UsageCount Value="32"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="3"/>
-        <UsageCount Value="32"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\fgl.pp"/>
+        <UsageCount Value="10"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="168"/>
         <CursorPos X="51" Y="186"/>
-        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\lcl\forms.pp"/>
         <UnitName Value="Forms"/>
+        <UsageCount Value="9"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="331"/>
         <CursorPos Y="352"/>
-        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\lcl\comctrls.pp"/>
         <UnitName Value="ComCtrls"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1611"/>
         <CursorPos X="15" Y="1628"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\lcl\include\customlistview.inc"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1246"/>
         <CursorPos X="3" Y="1256"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\win64\system.pp"/>
         <UnitName Value="System"/>
-        <EditorIndex Value="-1"/>
         <UsageCount Value="4"/>
+        <EditorIndex Value="-1"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\lcl\dialogs.pp"/>
         <UnitName Value="Dialogs"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="268"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="..\InspectorMike-common\Display\Dialogs\DialogSQLFilter.pas"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="114"/>
         <CursorPos X="18" Y="131"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\lcl\controls.pp"/>
         <UnitName Value="Controls"/>
+        <UsageCount Value="8"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2459"/>
         <CursorPos X="14" Y="2477"/>
-        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\lcl\include\customform.inc"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="58"/>
         <CursorPos Y="75"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\config_lazarus\onlinepackagemanager\packages\LazSerial\lazserialsetup.pas"/>
         <ComponentName Value="ComSetupFrm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <UsageCount Value="9"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="56"/>
         <CursorPos X="10" Y="54"/>
-        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\lcl\stdctrls.pp"/>
         <UnitName Value="StdCtrls"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1256"/>
         <CursorPos X="3" Y="1267"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="..\Shared\Support\GPSSupport.pas"/>
+        <UsageCount Value="4"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="147"/>
         <CursorPos X="10" Y="35"/>
-        <UsageCount Value="4"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\classes\classesh.inc"/>
+        <UsageCount Value="11"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1808"/>
         <CursorPos Y="1825"/>
-        <UsageCount Value="11"/>
       </Unit>
       <Unit>
         <Filename Value="..\Shared\Display\Frames\FrameVideoDirectShow.pas"/>
+        <UsageCount Value="9"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="16" Y="18"/>
-        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\sysutils\sysutilh.inc"/>
+        <UsageCount Value="8"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="89"/>
         <CursorPos X="4" Y="107"/>
-        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\packages\sdl\src\logger.pas"/>
+        <UsageCount Value="7"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="145"/>
-        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\sysutils\sysstrh.inc"/>
+        <UsageCount Value="7"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="53"/>
         <CursorPos X="10" Y="85"/>
-        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\sysutils\sysstr.inc"/>
+        <UsageCount Value="7"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="234"/>
         <CursorPos X="10" Y="237"/>
-        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\config_lazarus\onlinepackagemanager\packages\LazSerial\lazsynaser.pas"/>
         <UnitName Value="LazSynaSer"/>
+        <UsageCount Value="12"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1066"/>
         <CursorPos Y="1094"/>
-        <UsageCount Value="12"/>
       </Unit>
       <Unit>
         <Filename Value="..\Shared\Support\DBSupport.pas"/>
+        <UsageCount Value="6"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="73"/>
-        <UsageCount Value="6"/>
       </Unit>
       <Unit>
         <Filename Value="..\Shared\Support\OSSupport.pas"/>
+        <UsageCount Value="7"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="209"/>
         <CursorPos X="30" Y="223"/>
-        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\sysutils\syshelph.inc"/>
+        <UsageCount Value="8"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="166"/>
         <CursorPos X="3" Y="5"/>
-        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\sysutils\syshelp.inc"/>
+        <UsageCount Value="7"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1251"/>
         <CursorPos X="3" Y="1254"/>
-        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\inc\systemh.inc"/>
+        <UsageCount Value="11"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1391"/>
         <CursorPos X="10" Y="1409"/>
-        <UsageCount Value="11"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\sysutils\datih.inc"/>
+        <UsageCount Value="7"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="109"/>
         <CursorPos X="10" Y="130"/>
-        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\packages\rtl-objpas\src\inc\strutils.pp"/>
         <UnitName Value="StrUtils"/>
+        <UsageCount Value="9"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="122"/>
         <CursorPos X="10" Y="117"/>
-        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\packages\fcl-xml\src\xmlread.pp"/>
         <UnitName Value="XMLRead"/>
+        <UsageCount Value="8"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="43" Y="25"/>
-        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\packages\fcl-xml\src\xmlreader.pp"/>
         <UnitName Value="XmlReader"/>
+        <UsageCount Value="8"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="136"/>
-        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\lcl\grids.pas"/>
         <UnitName Value="Grids"/>
+        <UsageCount Value="9"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="13227"/>
         <CursorPos Y="13247"/>
-        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\math.pp"/>
         <UnitName Value="Math"/>
+        <UsageCount Value="9"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2129"/>
         <CursorPos Y="2025"/>
-        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\config_lazarus\onlinepackagemanager\packages\industrialstuff\source\AdvLed.pas"/>
+        <UsageCount Value="9"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="11"/>
         <CursorPos X="26" Y="30"/>
-        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\lcl\include\wincontrol.inc"/>
+        <UsageCount Value="8"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="7556"/>
         <CursorPos Y="7574"/>
-        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\lcl\include\control.inc"/>
+        <UsageCount Value="9"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="3518"/>
         <CursorPos Y="3537"/>
-        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\sysutils\finah.inc"/>
+        <UsageCount Value="10"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="10" Y="22"/>
-        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\sysutils\fina.inc"/>
+        <UsageCount Value="10"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="4"/>
         <CursorPos X="3" Y="24"/>
-        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="..\Shared\Support\FileSupport.pas"/>
+        <UsageCount Value="13"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="68"/>
         <CursorPos X="61" Y="97"/>
-        <UsageCount Value="13"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\inc\system.inc"/>
+        <UsageCount Value="11"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="841"/>
         <CursorPos X="3" Y="845"/>
-        <UsageCount Value="11"/>
       </Unit>
       <Unit>
         <Filename Value="..\Shared\Display\Forms\FormAbout.pas"/>
+        <UsageCount Value="12"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="46"/>
         <CursorPos X="20" Y="61"/>
-        <UsageCount Value="12"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\fpcsrc\rtl\objpas\sysutils\filutilh.inc"/>
+        <UsageCount Value="11"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="10" Y="205"/>
-        <UsageCount Value="11"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\components\lazutils\lazfileutils.pas"/>
         <UnitName Value="LazFileUtils"/>
+        <UsageCount Value="11"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="22"/>
-        <UsageCount Value="11"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\components\lazutils\fileutil.pas"/>
         <UnitName Value="FileUtil"/>
+        <UsageCount Value="11"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="37"/>
-        <UsageCount Value="11"/>
       </Unit>
       <Unit>
         <Filename Value="B:\Apps\Dev\lazarus_trunk\lazarus\components\lazutils\lazutils_defines.inc"/>
-        <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
+        <EditorIndex Value="-1"/>
       </Unit>
       <Unit>
         <Filename Value="..\InspectorMike-common\Display\Forms\FormAbout.pas"/>
+        <UsageCount Value="10"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="45" Y="10"/>
-        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="..\InspectorMike-common\Display\Frames\FrameHTMLs.pas"/>
         <ComponentName Value="FrameHTML"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
+        <UsageCount Value="10"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="28" Y="27"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\InspectorMike-common\IM_units\src\Support\StringSupport.pas"/>
+        <Loaded Value="True"/>
         <UsageCount Value="10"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="37"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\InspectorMike-common\IM_units\src\Support\FileSupport.pas"/>
+        <Loaded Value="True"/>
+        <UsageCount Value="10"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="75"/>
+        <CursorPos X="11" Y="96"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="Classes\Logger.pas"/>
-        <Caret Line="102" Column="50" TopLine="86"/>
-      </Position>
-      <Position>
-        <Filename Value="Classes\SerialPorts.pas"/>
-        <Caret Line="321" Column="47" TopLine="307"/>
-      </Position>
-      <Position>
-        <Filename Value="Classes\SerialPorts.pas"/>
-        <Caret Line="921" Column="39" TopLine="901"/>
-      </Position>
-      <Position>
-        <Filename Value="Classes\SerialPorts.pas"/>
-        <Caret Line="200" Column="27" TopLine="188"/>
-      </Position>
-      <Position>
-        <Filename Value="Classes\SerialPorts.pas"/>
-        <Caret Line="29" Column="12" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="Classes\SerialPorts.pas"/>
-        <Caret Line="191" Column="10" TopLine="160"/>
-      </Position>
-      <Position>
-        <Filename Value="Classes\SerialPorts.pas"/>
-        <Caret Line="338" Column="28" TopLine="314"/>
-      </Position>
-      <Position>
-        <Filename Value="Classes\SerialPorts.pas"/>
-        <Caret Line="341" Column="22" TopLine="314"/>
-      </Position>
-      <Position>
-        <Filename Value="Classes\SerialPorts.pas"/>
-        <Caret Line="342" Column="23" TopLine="314"/>
-      </Position>
       <Position>
         <Filename Value="Classes\SerialPorts.pas"/>
         <Caret Line="485" Column="26" TopLine="454"/>
@@ -624,6 +595,42 @@
       <Position>
         <Filename Value="Classes\DataElements.pas"/>
         <Caret Line="402" Column="26" TopLine="374"/>
+      </Position>
+      <Position>
+        <Filename Value="Display\DialogDataElements.pas"/>
+        <Caret Line="6" Column="23"/>
+      </Position>
+      <Position>
+        <Filename Value="Display\FrameSerialPort.pas"/>
+        <Caret Line="40" Column="66" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="Display\FormMain.pas"/>
+        <Caret Line="101" Column="49" TopLine="80"/>
+      </Position>
+      <Position>
+        <Filename Value="Display\FormMain.pas"/>
+        <Caret Line="315" Column="17" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="Display\FormMain.pas"/>
+        <Caret Line="101" Column="7" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="..\InspectorMike-common\IM_units\src\Support\FileSupport.pas"/>
+        <Caret Line="96" Column="23" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="Display\FormMain.pas"/>
+        <Caret Line="315" Column="15" TopLine="294"/>
+      </Position>
+      <Position>
+        <Filename Value="..\InspectorMike-common\IM_units\src\Support\FileSupport.pas"/>
+        <Caret Line="96" Column="11" TopLine="75"/>
+      </Position>
+      <Position>
+        <Filename Value="Display\FormMain.pas"/>
+        <Caret Line="323" Column="19" TopLine="294"/>
       </Position>
     </JumpHistory>
     <RunParams>

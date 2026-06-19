@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="12"/>
+    <Version Value="13"/>
     <PathDelim Value="\"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
@@ -34,22 +34,13 @@
     </RunParams>
     <RequiredPackages>
       <Item>
-        <PackageName Value="pl_Win_DirectX"/>
-      </Item>
-      <Item>
-        <PackageName Value="pl_Win_DSPack"/>
-      </Item>
-      <Item>
-        <PackageName Value="IM_application"/>
-      </Item>
-      <Item>
-        <PackageName Value="IM_units"/>
+        <PackageName Value="IM_forms"/>
       </Item>
       <Item>
         <PackageName Value="industrial"/>
       </Item>
       <Item>
-        <PackageName Value="LazSerialPort"/>
+        <PackageName Value="IM_units.LazSerial"/>
       </Item>
       <Item>
         <PackageName Value="LCL"/>
@@ -58,61 +49,51 @@
     <Units>
       <Unit>
         <Filename Value="SerialProcessor.lpr"/>
-        <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="Display\FormMain.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
         <Filename Value="Classes\DataElements.pas"/>
-        <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="Classes\SerialPorts.pas"/>
-        <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="Display\DialogDataElements.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="dlgDataElements"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
         <Filename Value="Display\DialogDataElement.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="dlgDataElement"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
         <Filename Value="Display\DialogSerialPorts.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="dlgSerialPorts"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
         <Filename Value="Display\DialogSerialPort.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="dlgSerialPort"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
         <Filename Value="Display\FrameSerialPort.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="fmeSerialPort"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
       </Unit>
       <Unit>
         <Filename Value="Classes\Logger.pas"/>
-        <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
   </ProjectOptions>

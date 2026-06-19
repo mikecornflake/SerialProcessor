@@ -43,8 +43,7 @@ Uses
   Interfaces, // this includes the LCL widgetset
   Forms,
   SysUtils,
-  LazSerialPort,
-  FormMain, pl_win_directx;
+  FormMain;
 
   {$R *.res}
 

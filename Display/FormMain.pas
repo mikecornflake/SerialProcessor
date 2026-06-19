@@ -98,7 +98,7 @@ Var
 Implementation
 
 Uses
-  StringSupport, XMLSupport, OSSupport, Logger, FormAbout;
+  FileSupport, StringSupport, XMLSupport, OSSupport, Logger, FormAbout;
 
   {$R *.lfm}
 
@@ -312,7 +312,7 @@ Begin
 
   sFile := Format('<TSerialProcessor>%s%s</TSerialProcessor>', [sMain, sDisplay]);
 
-  SaveTextToFile(FSettingsFile, sFile);
+  SaveTextFile(FSettingsFile, sFile);
 End;
 
 Procedure TfrmMain.LoadSettings;
