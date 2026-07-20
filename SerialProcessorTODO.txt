@@ -37,10 +37,9 @@ Magic numbers:
     FTimeout := 5 / (24 * 60 * 60) is clever but obscure. Consider a named constant like DEFAULT_TIMEOUT_SECONDS.
 
 Area	Status	Suggestion
-Prefix/Suffix mismatch	⚠️ Needs guard	Log or expose parse failures
-Delimiter mismatch	⚠️ Needs guard	Add fallback or partial processing
-Format string safety	❌ Bug	Fix '%f.3' → '%.3f' etc.
-XML parsing	⚠️ Needs guard	Wrap in try/except
-Timeout configuration	✅ OK	Consider exposing as a property
-Unicode handling	✅ OK	UTF-8 mode and TStringStream are appropriate
-
+- Prefix/Suffix mismatch - Needs guard	Log or expose parse failures
+- Delimiter mismatch - Needs guard	Add fallback or partial processing
+- Format string safety - Bug	Fix '%f.3' → '%.3f' etc.
+- XML parsing - Needs guard	Wrap in try/except
+- Timeout configuration - OK	Consider exposing as a property
+- Unicode handling	✅ OK	UTF-8 mode and TStringStream are appropriate
